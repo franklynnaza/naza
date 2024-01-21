@@ -701,7 +701,7 @@ width: 100%;
     
 }
 .timeline{
-    box-shadow: 0 0 20px var(--text-black-900);
+    box-shadow: 0 0 10px var(--text-black-900);
 }
 .timeline:hover{
    
@@ -1090,7 +1090,9 @@ i {
     flex-wrap: wrap;
     justify-content:space-around;
 }
-
+.frequent .btn a{
+    color: white;
+}
 
 .frequent .btn {
     margin-top: 20px;
@@ -1162,7 +1164,7 @@ h2 {
     cursor: pointer;
 }
 .service .service-item .service-item-inner:hover{
-    box-shadow: 0 0 20px var(--text-black-900);
+    box-shadow: 0 0 10px var(--text-black-900);
 }
 .service .service-item .service-item-inner .icon{
     height: 60px;
@@ -1226,17 +1228,12 @@ transition: all .3s ease;
 .portfolio-item h3{
     color: var(--text-black-900);
 }
-.portfolio .portfolio-item-inner{
-    border: 6px solid var(--bg-black-100);
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
+
+
+.p-image:hover{
+    box-shadow: 0 0 10px var(--text-black-900);
    
-}
-
-.portfolio-item-inner:hover{
-
-    box-shadow: 0 0 20px var(--text-black-900)
+   
 }
 .portfolio .portfolio-item-inner .portfolio-img-img{
     width: 200%;
@@ -1321,7 +1318,7 @@ margin-bottom: 16px;
 }
 
 .contact .contact-form .form-item .form-control:focus{
-    box-shadow: 0 0 20px var(--text-black-900);
+    box-shadow: 0 0 10px var(--text-black-900);
     height: 55px;
 }
 .contact .contact-form .form-item textarea.form-control:focus {
@@ -1339,6 +1336,11 @@ padding: 10px 25px;
     font-size: 30px;
     color: var(--skin-color);
   
+}
+.p-image{
+    border-radius: 15px !important;
+    object-fit: cover;
+    border: 3px solid var(--skin-color);
 }
 
 .feeter{
@@ -1404,7 +1406,7 @@ padding: 10px 25px;
     
 }
  .links i:hover {
-    box-shadow: 0 0 20px var(--skin-color);
+    box-shadow: 0 0 10px var(--skin-color);
      transform: rotate(360deg);
      color: var(--skin-color);
      
@@ -1414,7 +1416,7 @@ padding: 10px 25px;
     transition: all .2s ease-in-out;
 }
  .socials i:hover {
-    box-shadow: 0 0 20px var(--skin-color);
+    box-shadow: 0 0 10px var(--skin-color);
      transform: rotate(360deg);
      -webkit-transform: rotate(360deg);
      -ms-transform: rotate(360deg);
@@ -1529,7 +1531,7 @@ transition: all .3s ease;
 .contact-info-item:hover .icon i{
     color:var(--skin-color);
     margin-bottom: px;
-    box-shadow: 0 0 20px var(--skin-color);
+    box-shadow: 0 0 10px var(--skin-color);
     transform: rotate(360deg);
     
     
@@ -1809,6 +1811,7 @@ justify-content: center !important;
     .about .about-content .education, 
     .about .about-content .skills, 
     .about .about-content .personal-info{
+
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -1821,6 +1824,7 @@ justify-content: center !important;
     }
     .brandimg{
         width: 100%;
+        border: 1px solid var(--skin-color);
         border-radius: 25px;
         height:270px;
     }

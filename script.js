@@ -5,7 +5,7 @@ var typed = new Typed(".typing",{
     loop:true
 })
 var typed = new Typed(".typingg",{
-    strings:["Why us ? We Dont jusst Build Websites,We Develop sales machine for your brand!" ],
+    strings:["Why us ? We Dont just Build Websites,We Develop sales machine for your brand!" ],
     typeSpeed:60,
     backSpeed:10,
     loop:false
