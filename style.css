@@ -388,6 +388,11 @@ display: none;
     z-index: 10 !important;
     height: 45px;
 }
+.logo{
+    margin-bottom: 20px !important;
+    position: relative;
+    top: -50px;
+}
 header{
     background-color: var(--bgcolor);
 }
@@ -397,13 +402,7 @@ header{
     top: 50px ; 
 }
 
-.aside .logo{
-    position: absolute;
-    top: 100px;
-    left: 70px;
-    font-size: 30px;
-    text-transform: capitalize;
-}
+
 .aside .logimg  a{
     color:var(--text-black-700);
     font-weight: 700;
@@ -1604,7 +1603,9 @@ transition: all .3s ease;
 
 
 
-
+.logo{
+ display: none;
+}
 
 
 .frequent h1 {
@@ -1823,13 +1824,7 @@ justify-content: center !important;
         border-radius: 25px;
         height:270px;
     }
-    .aside .logo{
-        position: absolute;
-        top: 200px;
-        left: 55px;
-        font-size: 30px;
-        text-transform: capitalize;
-    }
+ 
     .aside .nav-toggler.open{
         left: 250px;
        }
