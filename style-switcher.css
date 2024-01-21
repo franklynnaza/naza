@@ -1,0 +1,29 @@
+.style-switcher{
+    position: fixed;
+    right: -20px;
+    top: -40px;
+   
+    
+   
+   
+    z-index: 1;
+   
+    transition: all .3s ease;
+    transform: translateX(100%);
+}
+
+.style-switcher .s-icon{
+    position: absolute;
+   
+    
+    text-align: center;
+   
+   
+    right: 100%;
+  
+    margin-right: 25px;
+    cursor: pointer;
+    transform: all .3s ease;
+  
+
+}

@@ -1,0 +1,545 @@
+ <div class="skills">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress" >
+                                                <div class="progress-in" style="width: 86%;"data-aos="fade-right"></div>
+                                                <div class="skill-percent">86%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>PHP</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 66%;"data-aos="fade-right"></div>
+                                                <div class="skill-percent">66%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"data-aos="fade-right"></div>
+                                                <div class="skill-percent">96%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>BOOTSTRAP</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%;"data-aos="fade-right"></div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naza's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./color-1.css">
+    <link rel="stylesheet" href="./color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./style-switcher.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sacramento&family=Sansita&display=swap" rel="stylesheet">
+</head>
+
+<body class=" dark" onscroll="onscrl()">
+    <span class="Sphere"></span>
+    <div class="loader"></div>
+
+
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <div class="logimg"><a href="#" ><span id="st">N</span><span id="nd">aza</span></a></div>
+                <div class="links">
+                    <a href="https://wa.me/+2349158577010"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#service"> <i class="fa-brands fa-github" ></i></a>
+                    <a href="#about"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="nav-toggler">
+                <span id="font"><i class="fa fa-bars" onclick="remo()"></i>
+
+                </span>
+            </div>
+            <div class="feet">
+                <ul class="nav">
+                    <li><a href="#home" onclick="ghgg()" class="activ"><i class=" fa fa-home "></i> Home</a></li>
+                    <li><a href="#about" onclick="ghgg()" class="activ"><i class=" fa fa-user"></i>About</a></li>
+                    <li><a href="#service" onclick="ghgg()"  class="activ"><i class=" fa fa-list"></i>Services</a></li>
+                    <li><a href="#portfolio" onclick="ghgg()" class="activ"><i class=" fa fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#contact" onclick="ghgg()" class="activ"><i class=" fa fa-comments"></i>Contact</a></li>
+
+                </ul>
+
+
+            </div>
+        </div>
+
+        <div class="main-content">
+            <section class=" home section active" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <div class="wrappper" data-aos="flip-left">
+
+
+                                <div class="singlecard ">
+                                    <div class="front"></div>
+
+                                    <div class="logo back">
+                                        <div class="content">
+                                            <span class="alone"><a href="#" class="logmgg"><span id="st">N</span><span id="nd">aza</span></a></span>
+
+
+                                            <h4>A Web Developer</h4>
+                                            <br>
+                                          
+                                            <h5 class="lorr">Welcome to my portfolio! I'm Naza, a web developer with a passion for building web programs. Through 4 of experience, I've developed skills in web development. This page showcases some of my recent work and provides insight into my expertise. Let's collaborate on your next project!
+                                            </h5>
+                                            <p class="socials ">
+                                                <a href="https://wa.me/+2349158577010">  <i class="fa-brands fa-whatsapp" ></i></a>
+                                                <a href=""><i class="fa-brands fa-github"></i></a>
+                                                <a href=""></a><i class="fa-brands fa-linkedin-in" ></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="name">
+
+                            
+                            <h3 class="my-profession">I am a <span class="typing"></span></h3>
+                            <p> A dynamic graduate, highly skilled in web development with and rich design that would make you want to stay on a platform always. contact me now</p>
+                            <a href="https://wa.me/09158577010" data-section-index="1" class="btn hire-me">Hire Me </a>
+                        </div>
+                        </div>
+                        <div class="home-img padd-15">
+                            <div class="wrappperr" data-aos="flip-left">
+
+
+                                <div class="singlecard " >
+                                    <div class="frontt"></div>
+
+                                    <div class="logo backk">
+                                        <div class="content">
+                                            <span class="alone"><a href="#" class="logmgg"><span id="st">N</span><span id="nd">aza</span></a></span>
+
+                                            <h4>A Web Developer</h4>
+                                            <br>
+                                          
+                                            <h5 class="lorr">Welcome to my portfolio! I'm Naza, a web developer with a passion for building web programs. Through 4 of experience, I've developed skills in web development. This page showcases some of my recent work and provides insight into my expertise. Let's collaborate on your next project!
+                                            </h5>
+                                            <p class="socials ">
+                                                <a href="https://wa.me/+2349158577010">  <i class="fa-brands fa-whatsapp" ></i></a>
+                                                <a href=""><i class="fa-brands fa-github"></i></a>
+                                                <a href=""></a><i class="fa-brands fa-linkedin-in" ></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title " >
+                            <h2><div data-aos="fade-up"data-aos-delay="100">A</div><div data-aos="fade-up"data-aos-delay="150">b</div><div data-aos="fade-up"data-aos-delay="200">o</div><div data-aos="fade-up"data-aos-delay="350">u</div><div data-aos="fade-up"data-aos-delay="400">t</div><div data-aos="fade-up"data-aos-delay="450" class="pad-2">M</div><div data-aos="fade-up"data-aos-delay="500">e</div></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content ">
+                            <div class="row">
+                                <div class="about-text">
+                                    <h3 >    I  am  Naza Onyeka, a <span>web developer</span></h3>
+                                    <p> <span class="typingg" data-aos="fade-up"></span></p>
+                                </div>
+                            </div>
+                            <div class="row block">
+                                <div class="personal-info">
+                                    <div class="row block">
+                                        <div class="info-item padd-15">
+                                            <p>birthday : <span>28 october 2003</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>20</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Whatsapp : <span>+234 915 857 7010</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>degree : <span>computer science and statistics</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>phone : <span>+234 915 857 7010</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>onyeka09@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>city : <span>Lagos</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>freelance : <span>available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn" > Resume</a>
+                                            <a href="https://wa.me/09158577010" data-section-index="1" class="btn hire-me">Hire Me </a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                               
+                               
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title"> <div data-aos="fade-left"data-aos-delay="100">E</div><div data-aos="fade-left"data-aos-delay="150">d</div><div data-aos="fade-left"data-aos-delay="200">u</div><div data-aos="fade-left"data-aos-delay="350">c</div><div data-aos="fade-left"data-aos-delay="400">a</div><div data-aos="fade-left"data-aos-delay="450">t</div><div data-aos="fade-left"data-aos-delay="500">i</div><div data-aos="fade-left"data-aos-delay="550">o</div><div data-aos="fade-left"data-aos-delay="600">n</div></h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline ">
+                                                <!---timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2010-2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">High School</h4>
+                                                    <p class="timeline-text">Took computer science classes that covered programming languages like Java and C++. I also learned how to create simple websites using HTML and CSS. These classes inspired me to pursue a career in web development.</p>
+
+                                                </div>
+                                                <!---timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2016-2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">College</h4>
+                                                    <p class="timeline-text">I earned a degree in computer science, which gave me a strong foundation in programming, algorithms, and data structures. I also took classes in web development, learning about front-end frameworks like Angular and back-end technologies like Node.js.</p>
+
+                                                </div>
+                                                <!---timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2020-date
+                                                    </h3>
+                                                    <h4 class="timeline-title">Master in Computer Science</h4>
+                                                    <p class="timeline-text">Professional Experience: In my professional experience as a web developer, I've expanded my skills to include a wide range of web development technologies, including React, Vue.js, and MongoDB. I've also learned how to use DevOps tools like Docker and Kubernetes to deploy and manage web applications.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title"> <div data-aos="fade-left"data-aos-delay="100">E</div><div data-aos="fade-left"data-aos-delay="150">x</div><div data-aos="fade-left"data-aos-delay="200">p</div><div data-aos="fade-left"data-aos-delay="350">e</div><div data-aos="fade-left"data-aos-delay="400">r</div><div data-aos="fade-left"data-aos-delay="450">i</div><div data-aos="fade-left"data-aos-delay="500">e</div><div data-aos="fade-left"data-aos-delay="550">n</div><div data-aos="fade-left"data-aos-delay="600">c</div><div data-aos="fade-left"data-aos-delay="650">e</div></h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline ">
+                                                <!---timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 01/10/2020 - 31/01/2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Web Intern</h4>
+                                                    <p class="timeline-text">
+                                                        training on powering frontend web page with web language and wordpress</p>
+
+                                                </div>
+                                                <!---timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>10/04/2021 - 31/10/2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Kwikseller</h4>
+                                                    <p class="timeline-text">
+                                                        Expanded knowledge of creating static and responsive sites using WordPress and frontend language.</p>
+
+                                                </div>
+                                                <!---timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> currently
+                                                    </h3>
+                                                    <h4 class="timeline-title">Freelancing</h4>
+                                                    <p class="timeline-text">currently freelancing and broadening my knowledge on web development and machine learning.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="service section  " id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title ">
+                            <h2><div data-aos="fade-up"data-aos-delay="100" class="sc">S</div><div data-aos="fade-up"data-aos-delay="150">e</div><div data-aos="fade-up"data-aos-delay="200">r</div><div data-aos="fade-up"data-aos-delay="350">v</div><div data-aos="fade-up"data-aos-delay="400">i</div><div data-aos="fade-up"data-aos-delay="450">c</div><div data-aos="fade-up"data-aos-delay="500">e</div><div data-aos="fade-up"data-aos-delay="600">s</div></h2>
+                        </div>
+                    </div>
+                    <div class="row margin-top">
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner" data-aos="zoom-in-right">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt "></i>
+                                </div>
+                                <h4>Responsive Design</h4>
+                                <p>I will design Responsive websites adapt to screens of different sizes, providing an optimal user experience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner" data-aos="zoom-in-down">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Website Development</h4>
+                                <p>I provide smart  website development services, bringing your online vision to life with professional expertise.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner" data-aos="zoom-in-left">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Premium Themes</h4>
+                                <p>I provide premium themes as a service, offering high-quality design and customization options for your website.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner" data-aos="zoom-in-right">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Code Debugging</h4>
+                                <p>I offer expert assistance in identifying and fixing errors in your code, a code debugging service.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner" data-aos="zoom-in-down">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Search Engine Optimization  </h4>
+                                <p>I help websites rank higher on search engines by optimizing their content and structure. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner" data-aos="zoom-in-left">
+                                <div class="icon">
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                </div>
+                                <h4>Graphic Design</h4>
+                                <p>I provide graphic design services, creating visual content that communicates and enhances brands
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio section  " id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2><div data-aos="fade-up"data-aos-delay="100">p</div><div data-aos="fade-up"data-aos-delay="150">o</div><div data-aos="fade-up"data-aos-delay="200">r</div><div data-aos="fade-up"data-aos-delay="350">t</div><div data-aos="fade-up"data-aos-delay="400">f</div><div data-aos="fade-up"data-aos-delay="450">o</div><div data-aos="fade-up"data-aos-delay="500">l</div><div data-aos="fade-up"data-aos-delay="550">i</div><div data-aos="fade-up"data-aos-delay="600">o</div></h2>
+                        </div>
+                    </div>
+                    <div class="row margin-top">
+                        <div class="portfolio-heading">
+                            <h2>My last Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner" data-aos="zoom-out-down">
+                                <div class="portfolio-img">
+                                    <img src="./images/project.png" alt="" width="100%" height="200px">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="section contact" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2><div data-aos="fade-up"data-aos-delay="100">C</div><div data-aos="fade-up"data-aos-delay="150">o</div><div data-aos="fade-up"data-aos-delay="200">n</div><div data-aos="fade-up"data-aos-delay="350">t</div><div data-aos="fade-up"data-aos-delay="400">a</div><div data-aos="fade-up"data-aos-delay="450">c</div><div data-aos="fade-up"data-aos-delay="500">t</div><div data-aos="fade-up"data-aos-delay="550" class="pad-2"> M</div><div data-aos="fade-up"data-aos-delay="600">e</div></h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title  margin-top">Have You Any Questions <span data-aos="zoom-in-down"data-aos-delay="550" class="pad-2"> ?</span></h3>
+                    <h4 class="contact-sub-title">I'M AT YOUR SERVICE</h4>
+                    <div class="row">
+                        <div class="contact-info-item padd-15" data-aos="flip-up"data-aos-delay="100" data-aos-duration="1000">
+                            <a href="#home"><div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <h4>0ffice</h4>
+                            <p>Nigeria</p></a>
+                        </div>
+                        <div class="contact-info-item padd-15" data-aos="flip-up"data-aos-delay="150" data-aos-duration="1000">
+                            <a href="https://wa.me/+2349158577010"><div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <h4>Whatsapp</h4>
+                           <p>+234 915 857 7010</p></a>
+                        </div>
+                        <div class="contact-info-item padd-15" data-aos="flip-up"data-aos-delay="200" data-aos-duration="1000">
+                            <a href="#home"><div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <h4>Call Us On</h4>
+                            <p>+234 915 857 7010</p></a>
+                        </div>
+                        <div class="contact-info-item padd-15" data-aos="flip-up"data-aos-delay="250" data-aos-duration="1000">
+                            <a href="#home"><div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>franklynonyeka09@gmail.com</p></a>
+                        </div>
+                    </div>
+                    <h3 class="contact-title  margin-top">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                    <div class="row">
+                        <div class="contact-form">
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name" data-aos="flip-right"
+                                            data-aos-delay="100" data-aos-duration="1000">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email"
+                                            data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject"
+                                            data-aos="fade-up">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <div class="form-group" data-aos="flip-right" data-aos-delay="100"
+                                        data-aos-duration="1000">
+                                        <textarea name="" class="form-control" id="" placeholder="message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12" data-aos="flip-left">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn " >Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer"> <span class="bottom">© Copyright <span class="bold">2023</span>.</span></footer>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <div class="style-switcher"  >
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa fa-palette fa-spin"></i>
+        </div>
+        <div class="day-night s-icon" >
+            <i class="fa fa-sun"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./script.js">  </script>
+    <script src="./style-switcher.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+    <script src="./scroll.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    
+    
+    <script>
+        AOS.init();
+    </script>
+    <script src="./gsap.js"></script>
+
+
+
+</body>
+
+</html>
