@@ -401,7 +401,8 @@ header{
 .head{
     height: 20px !important;
     position: relative;
-    top: 50px ; 
+    top: 55px ; 
+    right: 20px;
 }
 
 
@@ -456,7 +457,7 @@ header{
     cursor: pointer;
     position: fixed;
     left: 300px;
-    top: 20px;
+    top: 15px;
     border-radius: 5px;
     background-color: var(--bg-black-100);
     display: none;
@@ -574,7 +575,7 @@ border-radius: 5px;
 .brandimg{
     width: 80%;
     border-radius: 25px;
-    border: 1px solid var(--skin-color);
+   
     height:310px;
 }
 .about .about-content{
@@ -1542,6 +1543,41 @@ transition: all .3s ease;
     
 
 }
+.sblur{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    margin: auto !important;
+    display: flex;
+    text-align: center !important;
+    align-items: center;
+    align-self: center;
+    justify-content: center !important;
+    height: 60px;
+    position: fixed;
+    opacity: 100%;
+    display: none;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.brbottom{
+    margin: auto !important;
+    display: flex;
+    text-align: center !important;
+    justify-content: center !important;
+   
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    width: 90%;
+    height: 60px;
+    position: fixed;
+    opacity: 100%;
+    border-bottom: 1px solid var(--bg-black-20);
+    z-index: 1;
+    top: 0;
+    left: 0; 
+}
 .contact-info-item i{
     font-size: 15px;
     color:var(--text-black-700);
@@ -1592,6 +1628,7 @@ transition: all .3s ease;
 @media(max-width:1024px){
     h3.hello{
         font-size: 20px;
+
         margin: 15px 0;
     }
     h3.my-profession{
@@ -1599,7 +1636,9 @@ transition: all .3s ease;
     margin: 15px 0;
 
 }
-
+.sblur{
+    display: initial;
+}
 .name{
     position: relative;
     top: 150px;
@@ -1736,6 +1775,7 @@ justify-content: center !important;
   }
     .main-content{
         padding-left: 0px;
+       
      
     }
     .section .container{
@@ -1827,7 +1867,7 @@ justify-content: center !important;
     }
     .brandimg{
         width: 100%;
-        border: 1px solid var(--skin-color);
+      
         border-radius: 25px;
         height:270px;
     }
