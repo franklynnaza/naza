@@ -386,9 +386,10 @@ display: none;
 .logoo{
     display: flex;
   align-items: flex-end;
-    width: 150px;
+    width: 200px;
+    margin-top: -5px;
     z-index: 10 !important;
-    height: 45px;
+    height: 55px;
 }
 .logo{
     margin-bottom: 20px !important;
@@ -1567,8 +1568,9 @@ transition: all .3s ease;
     text-align: center !important;
     justify-content: center !important;
    
-   
-    width: 100%;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    width: 90%;
     height: 60px;
     position: fixed;
     opacity: 100%;
