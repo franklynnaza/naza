@@ -1369,6 +1369,8 @@ padding: 10px 25px;
 }
 .herroimg{
     display: none;
+    position: relative;
+    top: 25px;
 }
 .content{
     padding-top: 25px;
