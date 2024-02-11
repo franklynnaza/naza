@@ -822,7 +822,7 @@ color: var(--text-black-900);
     display: block;
     color: white;
     height: 250px;
-    border-radius: 15px;
+    border-radius: 22px;
     position: relative;
     background: linear-gradient(135deg, #211d2e, #1c0225);
     cursor: pointer;
