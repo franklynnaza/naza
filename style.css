@@ -501,7 +501,7 @@ color: var(--skin-color);
 }
 .shadow-dark{
   
-    box-shadow: 0 0 10px var(--text-black-900);
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15)!important;
 }
 /*
 home*/
@@ -706,7 +706,7 @@ width: 100%;
     
 }
 .timeline{
-    box-shadow: 0 0 10px var(--text-black-900);
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15)!important;
 }
 .timeline:hover{
    
@@ -785,7 +785,9 @@ color: var(--text-black-900);
 
 
 }
-
+.piece:hover .bng{
+    
+}
 .service-card:hover::before {
     opacity: 100%;
 
@@ -816,7 +818,7 @@ color: var(--text-black-900);
 .service-card {
     width: 320px;
     margin-bottom: 50px;
- 
+ box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15)!important;
     justify-content: center;
     padding: auto;
     display: block;
@@ -826,7 +828,7 @@ color: var(--text-black-900);
     position: relative;
     background: linear-gradient(135deg, #211d2e, #1c0225);
     cursor: pointer;
-    border: 1px solid var(--txxtcolor);
+    border: .1px solid var(--txxtcolor);
     text-align: center;
 }
 
@@ -1169,7 +1171,7 @@ h2 {
     cursor: pointer;
 }
 .service .service-item .service-item-inner:hover{
-    box-shadow: 0 0 10px var(--text-black-900);
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15)!important;
 }
 .service .service-item .service-item-inner .icon{
     height: 60px;
@@ -1236,7 +1238,7 @@ transition: all .3s ease;
 
 
 .p-image:hover{
-    box-shadow: 0 0 10px var(--text-black-900);
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15)!important;
    
    
 }
@@ -1323,7 +1325,7 @@ margin-bottom: 16px;
 }
 
 .contact .contact-form .form-item .form-control:focus{
-    box-shadow: 0 0 10px var(--text-black-900);
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15)!important;
     height: 55px;
 }
 .contact .contact-form .form-item textarea.form-control:focus {
@@ -1370,6 +1372,7 @@ padding: 10px 25px;
 .herroimg{
     display: none;
     position: relative;
+    
     top: 25px;
 }
 .content{
