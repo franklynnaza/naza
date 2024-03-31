@@ -166,7 +166,7 @@ body{
     padding: 0;
   line-height: 1.5;
   font-size: 16px;
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: .5px;
  
     
@@ -368,6 +368,9 @@ transition: all .3s ease;
 z-index: 11;
 }
 .none{
+    display: none !important;
+}
+.nonee{
     display: none !important;
 }
 .blur{
