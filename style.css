@@ -532,7 +532,7 @@ h3.my-profession{
 
 }
 .typing{
-    color:var(--skin-color);
+    color:white;
 
 }
 .hire-me{
@@ -1867,6 +1867,9 @@ justify-content: center !important;
         flex: 0 0 100%;
         max-width: 100%;
     }
+    h3.my-profession {
+        font-size: 23px !important;
+    }
     .pr{
         padding-left: 0;
         padding-right: 0;
@@ -1891,4 +1894,5 @@ justify-content: center !important;
     .aside .nav-toggler.open{
         left: 300px;
        }
+
 }
