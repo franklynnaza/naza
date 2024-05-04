@@ -835,6 +835,14 @@ color: var(--text-black-900);
     border: .1px solid var(--txxtcolor);
     text-align: center;
 }
+.privacy{
+    display: flex;
+    justify-content: center;
+}
+.privacy a{
+    color: white;
+   padding-left: 10px;
+}
 
 .service-card i {
     color: white;
