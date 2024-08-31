@@ -161,6 +161,9 @@ body.dark{
         --text-black-500:#aa00ff;
 
 }
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -389,10 +392,10 @@ display: none;
 .logoo{
     display: flex;
   align-items: flex-end;
-    width: 200px;
+    width: 100px;
     margin-top: -5px;
     z-index: 10 !important;
-    height: 55px;
+    
 }
 .logo{
     margin-bottom: 20px !important;
@@ -405,8 +408,9 @@ header{
 .head{
     height: 20px !important;
     position: relative;
-    top: 55px ; 
-    right: 20px;
+    top: 48px ; 
+    right: -50px;
+  
 }
 
 
@@ -451,6 +455,11 @@ header{
     border-right: 5px solid var(--skin-color);
     top: 0;
     right: 0;
+}
+.second-logo{
+   width: 10px;
+   height: 100%;
+   object-fit: contain;
 }
 .aside .nav-toggler{
     height: 40px;
@@ -1576,8 +1585,7 @@ transition: all .3s ease;
     opacity: 100%;
     display: none;
     z-index: 1;
-    top: 0;
-    left: 0;
+   
 }
 .brbottom{
     margin: auto !important;
@@ -1669,6 +1677,14 @@ transition: all .3s ease;
  display: none;
 }
 
+.logoo{
+    display: flex;
+  align-items: flex-end;
+    width: 200px;
+    margin-top: -5px;
+    z-index: 10 !important;
+    height: 55px;
+}
 
 .frequent h1 {
     font-size: 29px;
